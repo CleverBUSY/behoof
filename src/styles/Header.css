@@ -1,0 +1,39 @@
+.header {
+    padding-top: 12px;
+}
+.header-wrapper {
+    display: flex;
+    align-items: center;
+}
+.header__text p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-left: 12px;
+}
+.header__right {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+@media (max-width: 1024px) {
+    .header__right {
+        display: none;
+    }
+    .header__text p {
+        display: none;
+    }
+    .header__logo span {
+        border: 1px solid black !important;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 245px) {
+    
+}
